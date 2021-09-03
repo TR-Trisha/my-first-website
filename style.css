@@ -8,7 +8,7 @@ h1{
 .muslim-girl{
     color: darkblue;
 }
-section{
+.be-pious{
     display: flex;
     margin-bottom: 150px;
 }
@@ -36,4 +36,32 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 
+}
+.perfect{
+    box-shadow: 10px 10px 40px gray;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+   
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#power{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#slow{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-weight: 700;
 }
